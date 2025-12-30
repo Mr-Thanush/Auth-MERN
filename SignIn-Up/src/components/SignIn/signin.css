@@ -1,0 +1,114 @@
+ * {
+ box-sizing: border-box;
+ }
+ .box{
+    width:50vw;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 300px auto;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: rgb(252, 140, 4);
+ }
+
+ .box h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+   color: rgb(249, 18, 1);
+ }
+
+ .box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
+
+ .box form input {
+    height: 4vh;
+    border-radius: 5px;
+   padding-left: 10px;
+   background-color: rgb(253, 220, 164);
+ }
+ 
+ .box form .btntoggle {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: 65%;
+    top: 41.8%;
+    cursor: pointer;
+ }
+
+
+
+  .box form .btn {
+    width: 15vw;
+    height: 4vh;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(249, 108, 105);
+ }
+
+
+ @media screen and (min-width:600px){
+     .box form .btntoggle {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 66%;
+    top: 40.5%;
+ }
+
+
+ }
+
+ @media screen and (min-width:750px){
+     .box form .btntoggle {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 62%;
+    top: 40.5%;
+ }
+
+  .box{
+    width:40vw;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 300px auto;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: rgb(252, 140, 4);
+ }
+
+
+
+ }
+
+ @media screen and (min-width:990px){
+     .box form .btntoggle {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 65%;
+    top: 40.5%;
+ }
+
+  .box{
+    width:40vw;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 300px auto;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: rgb(252, 140, 4);
+ }
+
+
+
+ }

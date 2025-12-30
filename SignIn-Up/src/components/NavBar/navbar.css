@@ -1,0 +1,282 @@
+.navbar {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto 3px;
+    background-color: rgb(255, 140, 0);
+     box-shadow: 0 0 20px rgb(255, 140, 0);
+    display: flex;
+    position: fixed;
+    top: 1%;
+    width: 95vw;
+}
+
+.navbar h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.btns {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.navbar .btnOne{
+   border-radius: 10px;
+   width:15vw;
+   height:5vh;
+   margin:auto ;
+   color: rgb(10, 10, 10);
+   background-color: rgb(241, 190, 128);
+   cursor: pointer;
+}
+
+.navbar .btnTwo{
+   border-radius: 10px;
+    width:15vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(241, 190, 128);
+    cursor: pointer;
+}
+
+.navbar .btnThree{
+   border-radius: 10px;
+    width:15vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(250, 11, 2);
+   cursor: pointer;
+}
+
+@media screen and (min-width:570px){
+    .navbar {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+    margin: auto 20px;
+    background-color: rgb(255, 140, 0);
+     box-shadow: 0 0 20px rgb(255, 140, 0);
+    display: flex;
+    position: fixed;
+    top: 1%;
+    width: 90vw;
+}
+
+.navbar h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+
+.btns {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    margin-left: 50px;
+    align-items: center;
+}
+}
+
+@media screen and (min-width:768px){
+    .navbar {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto 25px;
+    background-color: rgb(255, 140, 0);
+    box-shadow: 0 0 20px rgb(255, 140, 0);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 1%;
+    width: 90vw;
+}
+
+.navbar h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+
+.btns {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    align-items: center;
+}
+
+.navbar .btnOne{
+   border-radius: 10px;
+   width:15vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(241, 190, 128);
+   cursor: pointer;
+}
+
+.navbar .btnTwo{
+   border-radius: 10px;
+   width:15vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(241, 190, 128);
+    cursor: pointer;
+}
+
+.navbar .btnThree{
+   border-radius: 10px;
+    width:15vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(250, 11, 2);
+   cursor: pointer;
+
+}
+
+}
+
+
+
+@media screen and (min-width:998px){
+    .navbar {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto 45px;
+    background-color: rgb(255, 140, 0);
+    box-shadow: 0 0 20px rgb(255, 140, 0);
+    display: flex;
+    position: fixed;
+    top: 1%;
+    width: 90vw;
+}
+
+.navbar h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+.btns {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    align-items: center;
+    margin-left: 190px;
+}
+
+.navbar .btnOne{
+   border-radius: 10px;
+   width:15vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(241, 190, 128);
+   cursor: pointer;
+}
+
+.navbar .btnTwo{
+   border-radius: 10px;
+   width:15vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(241, 190, 128);
+    cursor: pointer;
+}
+
+.navbar .btnThree{
+   border-radius: 10px;
+    width:15vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(250, 11, 2);
+   cursor: pointer;
+}
+
+}
+
+
+
+@media screen and (min-width:1208px){
+    .navbar {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto 45px;
+    background-color: rgb(255, 140, 0);
+    box-shadow: 0 0 20px rgb(255, 140, 0);
+    display: flex;
+    position: fixed;
+    top: 1%;
+    width: 90vw;
+}
+
+.navbar h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.btns {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.navbar .btnOne{
+   border-radius: 10px;
+   width:10vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(241, 190, 128);
+   cursor: pointer;
+}
+
+.navbar .btnTwo{
+   border-radius: 10px;
+   width:10vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(241, 190, 128);
+    cursor: pointer;
+}
+
+.navbar .btnThree{
+   border-radius: 10px;
+    width:10vw;
+   height:5vh;
+   margin:auto;
+   color: rgb(10, 10, 10);
+   background-color: rgb(250, 11, 2);
+   cursor: pointer;
+}
+
+}
+
+

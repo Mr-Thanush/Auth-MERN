@@ -1,0 +1,84 @@
+.btnHome{
+  display: flex;
+  border: 2px solid black;
+  box-shadow: 10px 10px 10px black;
+  width:50vw;
+  padding: 7px;
+  margin: 300px auto;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(255, 153, 0);
+}
+
+.btnin {
+    font-weight:bold;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+h6 {
+    padding: 0;
+    margin: auto;
+    font-size: 1rem;
+    text-decoration: underline;
+
+}
+
+.btnup {
+    font-weight:bold;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.home {
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 3rem;
+    
+}
+
+
+@media screen  and (min-width:480px){
+    .btnHome {
+        width:45vw;
+    }
+}
+
+@media screen  and (min-width:630px){
+    .btnHome {
+        width:40vw;
+    }
+}
+
+
+@media screen  and (min-width:740px){
+    .btnHome {
+        width:35vw;
+    }
+}
+
+@media screen  and (min-width:920px){
+    .btnHome {
+        width:30vw;
+    }
+}
+
+@media screen  and (min-width:1020px){
+    .btnHome {
+        width:25vw;
+    }
+}
+
+@media screen  and (min-width:1580px){
+    .btnHome {
+        width:20vw;
+    }
+}
