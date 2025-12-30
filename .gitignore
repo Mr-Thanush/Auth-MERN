@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# frontend
+SignIn-Up/node_modules
+SignIn-Up/dist
+
+# backend
+server/node_modules
+server/.env
