@@ -12,7 +12,7 @@ function SignUp() {
   const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('https://auth-mern-pb9k.onrender.com/signup', { name, email, password })
+    axios.post('https://auth-mern-pb9k.onrender.com/signup',  { name, email, password })
       .then(res => {
         if (res.data === "Signup Success") {
           navigate("/dashboard");
