@@ -10,7 +10,7 @@ function SignIn() {
   const navigate = useNavigate();
   const handleSignIn = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:3050/signin", { name, password })
+    axios.post("https://auth-mern-pb9k.onrender.com/signin", { name, password })
       .then((res) => {
         if (res.data === "Success") {
           navigate('/dashboard')
